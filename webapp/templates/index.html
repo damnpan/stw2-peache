@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+		<title>Product Recommender</title>
+		<link rel = "stylesheet"
+		type = "text/css"
+		href = "static/style.css" href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	</head>
+
+  <body>
+
+    <h1>peache</h1>
+
+    <h2>clothes</h2>
+
+    {% for i in image_links %}
+    <div class="card">
+      <img src={{ image_links[i] }}> 
+      <br>
+      <p><a href={{ shop_links[i] }}>Link To Shop</a></p>
+    </div>
+    {% endfor %}
+
+    <br>
+
+    <div style='text-align:center'>
+      <form>
+        <a href="{{ url_for('index') }}"><input type="submit" value="Refresh" /></a>  
+      </form>
+    </div>
+
+  </body>
+
+</html>
