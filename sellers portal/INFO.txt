@@ -1,0 +1,2 @@
+REGISTRATION DETAILS adminname adminemail admin adminpw
+REGISTRATION DETAILS pom elo.com pomelo pomelopw
