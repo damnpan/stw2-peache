@@ -1,0 +1,43 @@
+/* __body__ */
+
+body {
+  background-color: white;
+  padding:70px;
+}
+
+p1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color:#595959;
+}
+
+.card{
+  background: #fff1f0;
+  padding: 20%;
+  text-align: left;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* peache */
+h1{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 60px;
+  color: #eb918a;
+}
+
+/* Headers */
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #363636;
+}
+
+img{
+  width: 60%;
+  height: auto;
+}
